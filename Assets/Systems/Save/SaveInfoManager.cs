@@ -6,6 +6,7 @@ using UnityEngine.UI;
     {
         [Header("Save")]
         public SaveInfoSO saveInfo;
+        public ReferencesSO saveReferences;
 
         [Header("References")]
         [SerializeField] Transform player;
@@ -21,6 +22,8 @@ using UnityEngine.UI;
     {
         saveButton.onClick.AddListener(SaveGame);
         loadButton.onClick.AddListener(LoadGame);
+
+        saveReferences.BecomeIntance();
     }
     public void SaveGame()
     {

@@ -140,6 +140,7 @@ public class TooltipUI : MonoBehaviour, IPointerMoveHandler
 
     void UpdateQuantity(ItemSO item)
     {
+        quantityText.gameObject.SetActive(draggingQuantity > 1);
         quantityText.text = draggingQuantity.ToString();
         firstSlot.currentQuantity = firstSlotQuantity - draggingQuantity;
         firstSlot.UpdateItem(firstSlot.currentItem, firstSlot.currentQuantity);

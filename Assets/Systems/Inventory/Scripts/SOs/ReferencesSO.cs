@@ -15,7 +15,7 @@ public class ReferencesSO : ScriptableObject
         }
     }
     [ContextMenu("Intance this")]
-    void BecomeIntance()
+    public void BecomeIntance()
     {
         instance = this;
     }
