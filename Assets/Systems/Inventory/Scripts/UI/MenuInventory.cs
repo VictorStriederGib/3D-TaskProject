@@ -9,6 +9,7 @@ public class MenuInventory : MonoBehaviour
     public UnityEvent onPause,onUnpause, onCloseTab;
 
     public Button quitButton;
+    public GameObject playerInventory; bool inventoryOpen = false;
 
     void Start()
     {
@@ -34,6 +35,11 @@ public class MenuInventory : MonoBehaviour
             {
                 onCloseTab.Invoke();
             }
+        }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            inventoryOpen = !inventoryOpen;
+            playerInventory.SetActive(inventoryOpen);
         }
     }
     public void Quit()
