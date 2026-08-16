@@ -30,9 +30,13 @@ public class InventorySlotUI : MonoBehaviour, IPointerDownHandler, IPointerEnter
             UseItem();
         }
     }
+    void OEnable()
+    {
+        
+    }
     private void OnDisable()
     {
-        OnUpdateItem = delegate { };
+        //OnUpdateItem = delegate { };
     }
     public void UseItem()
     {

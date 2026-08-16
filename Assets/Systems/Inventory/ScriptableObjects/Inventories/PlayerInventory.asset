@@ -15,12 +15,36 @@ MonoBehaviour:
   id: Player
   capacity: 20
   slots:
-  - item: {fileID: 11400000, guid: bd88b1febc0d5184ab60e5152032d43e, type: 2}
-    quantity: 1
-  - item: {fileID: 11400000, guid: c9c4a7251f446664d8c2c446bcf6ed6c, type: 2}
-    quantity: 1
-  - item: {fileID: 11400000, guid: 12025314820385244acc6e7d6a1e4595, type: 2}
-    quantity: 10
+  - item: {fileID: 0}
+    quantity: 0
+  - item: {fileID: 0}
+    quantity: 0
+  - item: {fileID: 0}
+    quantity: 0
+  - item: {fileID: 0}
+    quantity: 0
+  - item: {fileID: 0}
+    quantity: 0
+  - item: {fileID: 0}
+    quantity: 0
+  - item: {fileID: 0}
+    quantity: 0
+  - item: {fileID: 0}
+    quantity: 0
+  - item: {fileID: 0}
+    quantity: 0
+  - item: {fileID: 0}
+    quantity: 0
+  - item: {fileID: 0}
+    quantity: 0
+  - item: {fileID: 0}
+    quantity: 0
+  - item: {fileID: 0}
+    quantity: 0
+  - item: {fileID: 0}
+    quantity: 0
+  - item: {fileID: 0}
+    quantity: 0
   - item: {fileID: 0}
     quantity: 0
   - item: {fileID: 0}

@@ -9682,7 +9682,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7113125791809504676}
   - component: {fileID: 584296596068180159}
-  - component: {fileID: 8481836945465053001}
+  - component: {fileID: 6540266585601634316}
   m_Layer: 0
   m_Name: Chest
   m_TagString: Untagged
@@ -9729,21 +9729,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &8481836945465053001
-MonoBehaviour:
+--- !u!65 &6540266585601634316
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4249522969392200983}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ac23e87c5946a541931b0ced3210703, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Systems.Inventory.ChestInventory
-  inventory: {fileID: 11400000, guid: 9ae2739f4918fa244914696c45f1516c, type: 2}
-  chestAnimator: {fileID: 8108975948627621546}
-  isOpen: 0
+  serializedVersion: 3
+  m_Size: {x: 3.58, y: 1, z: 2.55}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4514105952452050577
 GameObject:
   m_ObjectHideFlags: 0
