@@ -1,7 +1,15 @@
 fileFormatVersion: 2
 guid: 53016ba91f6e8ea41baa051b9d96e608
+AssetOrigin:
+  serializedVersion: 1
+  productId: 360542
+  packageName: "Stylized 3D Animated Chests \u2013 FREE Demo"
+  packageVersion: 1.0
+  assetPath: "Assets/Stylized 3D Animated Chests \u2013 FREE Demo/Resources/Chsets/Crowned
+    Chest/CrownedChest_FBX.fbx"
+  uploadId: 864666
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 24200
   internalIDToNameTable: []
   externalObjects: {}
   materials:
@@ -16,8 +24,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -58,6 +64,9 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -90,7 +99,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 0.01
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
@@ -107,11 +116,3 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 360542
-  packageName: "Stylized 3D Animated Chests \u2013 FREE Demo"
-  packageVersion: 1.0
-  assetPath: "Assets/Stylized 3D Animated Chests \u2013 FREE Demo/Resources/Chsets/Crowned
-    Chest/CrownedChest_FBX.fbx"
-  uploadId: 864666

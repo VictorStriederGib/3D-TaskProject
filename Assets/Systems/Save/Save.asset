@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f8a48e730bd41c49af63ba8b87b9986, type: 3}
+  m_Name: Save
+  m_EditorClassIdentifier: Assembly-CSharp::SaveInfoSO
+  playerPosition: {x: 102.6, y: 1.84, z: -43.53}
+  playerRotation: {x: 0, y: 0, z: 0, w: 1}
+  currentWeapon: {fileID: 11400000, guid: c9c4a7251f446664d8c2c446bcf6ed6c, type: 2}
+  playerItens:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 12025314820385244acc6e7d6a1e4595, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  ItensQuantity: 00000000000000000000000000000000000000000000000000000000000000000000000008000000000000000a00000000000000000000000000000000000000
