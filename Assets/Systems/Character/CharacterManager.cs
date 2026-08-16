@@ -2,31 +2,21 @@ using UnityEngine;
 
 public class CharacterManager : MonoBehaviour
 {
-    [SerializeField] ItemSO Sword, Spear;
     [SerializeField] InventorySlotUI weaponSlot;
+    [SerializeField] GameObject weapon; 
 
+    bool controllingCharacter = true;
     private Animator animator;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
+        weaponSlot.OnUpdateItem += EquipWeapon;
     }
-    ItemSO CheckEquippedItem()
+    
+    void EquipWeapon()
     {
-        if (weaponSlot.currentItem != null)
-        {
-            if (weaponSlot.currentItem == Sword)
-            {
-                animator.SetInteger("WeaponType", 1);
-                return Sword;
-            }
-            else if (weaponSlot.currentItem == Spear)
-            {
-                animator.SetInteger("WeaponType", 2);
-                return Spear;
-            }
-        }
-
-        return null;
+        animator.SetFloat("Weapon", weaponSlot.currentItem != null ? 1 : 0);
+        weapon.SetActive(weaponSlot.currentItem != null);
     }
 }

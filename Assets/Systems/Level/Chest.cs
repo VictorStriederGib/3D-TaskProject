@@ -11,13 +11,16 @@ public class Chest : MonoBehaviour
     public UnityEvent onInteractable, notInteractable, onChestOpen, onChestClose;
     private void Update()
     {
-        if (interactable && !interacting && Input.GetKeyDown(KeyCode.Space))
+        if (interactable && Input.GetKeyDown(KeyCode.Space))
         {
-            OpenChest();
-        }
-        if (interacting && Input.GetKeyDown(KeyCode.Space))
-        {
-            CloseChest();
+            if (interacting)
+            {
+                CloseChest();
+            }
+            else
+            {
+                OpenChest();
+            }
         }
     }
     [ContextMenu("Open")]
